@@ -1,0 +1,22 @@
+<!doctype html>
+<head>
+  <title>isthisacat.com</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./src/main.css"
+</head>
+<body>
+  <div class="container mx-auto text-center">
+    <section class="title-area">
+      <h1 class="text-6xl uppercase mt-5">Is this a cat?</h1>
+      <div id="file-container" class="my-8">
+        Upload an image: <input type="file" id="files" name="files">
+      </div>
+    </section>
+    <section>
+      <img id="cat" src="./src/cat.jpg" width="224" height="224" class="mx-auto">
+      <div id="prediction" class="text-enormous">YES</div>
+    </section>
+    <script src="./index.js"></script>
+  </div>
+</body>

@@ -1,0 +1,29 @@
+{
+  "name": "isthisacat.com",
+  "version": "1.0.0",
+  "description": "Inspired by [isitchristmas.com](https://isitchristmas.com) and [Mobilenet](https://github.com/tensorflow/tfjs-examples/tree/master/mobilenet), this app lets a user upload a picture, and the computer will tell you whether it's a cat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html",
+    "serve": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "V. David Zvenyach",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "autoprefixer": "^9.7.3",
+    "live-server": "^1.2.1",
+    "parcel-bundler": "^1.12.4",
+    "postcss": "^7.0.24",
+    "tailwindcss": "^1.1.4"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.6",
+    "@tensorflow/tfjs": "^1.4.0",
+    "postcss-cli": "^6.1.3"
+  }
+}

@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+
+.text-enormous {
+  font-size: 120pt;
+  @apply font-bold;
+}
+
+@tailwind utilities;
